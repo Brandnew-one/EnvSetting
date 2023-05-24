@@ -1,0 +1,15 @@
+//
+//  Prod.xcconfig
+//  EnvSetting
+//
+//  Created by Bran on 2023/05/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.app
+PRODUCT_NAME = EnvSetting
+
+DEPLOY_PHASE = prod
+API_KEY = 71hwkjlehflkj_sehfjkshdkf

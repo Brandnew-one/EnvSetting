@@ -1,0 +1,15 @@
+//
+//  Stage.xcconfig
+//  EnvSetting
+//
+//  Created by Bran on 2023/05/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.stage.app
+PRODUCT_NAME = EnvSetting-stage
+
+DEPLOY_PHASE = stage
+API_KEY = 72hwkjlehflkj_sehfjkshdkf
