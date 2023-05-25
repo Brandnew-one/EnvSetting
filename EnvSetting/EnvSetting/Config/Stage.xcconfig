@@ -12,4 +12,3 @@ PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.stage.app
 PRODUCT_NAME = EnvSetting-stage
 
 DEPLOY_PHASE = stage
-API_KEY = 72hwkjlehflkj_sehfjkshdkf

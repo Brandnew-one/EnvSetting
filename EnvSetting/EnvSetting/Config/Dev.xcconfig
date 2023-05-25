@@ -12,4 +12,3 @@ PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.dev.app
 PRODUCT_NAME = EnvSetting-dev
 
 DEPLOY_PHASE = dev
-API_KEY = 73hwkjlehflkj_sehfjkshdkf

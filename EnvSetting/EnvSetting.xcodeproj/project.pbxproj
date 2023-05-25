@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65546FE52A1E5E5500F54919 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65546FE42A1E5E5500F54919 /* Configuration.swift */; };
 		657566C42A1DFB3900019CD0 /* EnvSettingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657566C32A1DFB3900019CD0 /* EnvSettingApp.swift */; };
 		657566C62A1DFB3900019CD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657566C52A1DFB3900019CD0 /* ContentView.swift */; };
 		657566C82A1DFB3A00019CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657566C72A1DFB3A00019CD0 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65546FE32A1E5DE700F54919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65546FE42A1E5E5500F54919 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		657566C02A1DFB3900019CD0 /* EnvSetting-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EnvSetting-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		657566C32A1DFB3900019CD0 /* EnvSettingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvSettingApp.swift; sourceTree = "<group>"; };
 		657566C52A1DFB3900019CD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		657566C22A1DFB3900019CD0 /* EnvSetting */ = {
 			isa = PBXGroup;
 			children = (
+				65546FE32A1E5DE700F54919 /* Info.plist */,
 				657566D92A1DFF7200019CD0 /* Config */,
 				657566C32A1DFB3900019CD0 /* EnvSettingApp.swift */,
 				657566C52A1DFB3900019CD0 /* ContentView.swift */,
@@ -77,6 +81,7 @@
 				657566DA2A1DFF8400019CD0 /* Prod.xcconfig */,
 				657566DB2A1DFF8E00019CD0 /* Stage.xcconfig */,
 				657566DC2A1DFF9500019CD0 /* Dev.xcconfig */,
+				65546FE42A1E5E5500F54919 /* Configuration.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65546FE52A1E5E5500F54919 /* Configuration.swift in Sources */,
 				657566C62A1DFB3900019CD0 /* ContentView.swift in Sources */,
 				657566C42A1DFB3900019CD0 /* EnvSettingApp.swift in Sources */,
 			);
@@ -286,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -405,6 +413,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,6 +498,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -579,6 +589,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -663,6 +674,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EnvSetting/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvSetting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

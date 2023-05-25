@@ -12,6 +12,9 @@ struct EnvSettingApp: App {
   var body: some Scene {
     WindowGroup {
       ContentView()
+        .onAppear {
+          print(Configuration.getDeployPhase())
+        }
     }
   }
 }
