@@ -10,5 +10,6 @@
 
 PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.stage.app
 PRODUCT_NAME = EnvSetting-stage
+CUSTOM_FLAG = STAGE
 
 DEPLOY_PHASE = stage

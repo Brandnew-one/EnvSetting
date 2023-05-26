@@ -10,5 +10,6 @@
 
 PRODUCT_BUNDLE_IDENTIFIER = com.bran.envsetting.app
 PRODUCT_NAME = EnvSetting
+CUSTOM_FLAG = PROD
 
 DEPLOY_PHASE = prod
