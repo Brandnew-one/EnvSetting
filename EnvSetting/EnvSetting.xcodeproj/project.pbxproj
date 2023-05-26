@@ -94,6 +94,7 @@
 			buildConfigurationList = 657566CE2A1DFB3A00019CD0 /* Build configuration list for PBXNativeTarget "EnvSetting" */;
 			buildPhases = (
 				657566BC2A1DFB3900019CD0 /* Sources */,
+				658C3CC92A2090C60089A290 /* Test Run Script */,
 				657566BD2A1DFB3900019CD0 /* Frameworks */,
 				657566BE2A1DFB3900019CD0 /* Resources */,
 			);
@@ -150,6 +151,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		658C3CC92A2090C60089A290 /* Test Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Test Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\ncase \"${CONFIGURATION}\" in\n  \"Debug(Dev)\" | \"Release(Dev)\" )\n    echo \"DEV\" ;;\n  \"Debug(Stage)\" | \"Release(Stage)\" )\n    echo \"STAGE\" ;;\n  \"Debug\" | \"Release\" )\n    echo \"PROD\" ;;\n*)\n;;\nesac\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		657566BC2A1DFB3900019CD0 /* Sources */ = {
